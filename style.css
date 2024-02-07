@@ -1,0 +1,74 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f3f3;
+  margin: 0;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  margin-bottom: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #007bff;
+}
+
+section {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+article {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+
+article:last-child {
+  border-bottom: none;
+}
+.github-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #24292e; /* GitHub's background color */
+  color: #fff; /* White text */
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.github-button:hover {
+  background-color: #6e5494; /* GitHub's hover color */
+}
